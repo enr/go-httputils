@@ -46,7 +46,7 @@ License
 
 Apache 2.0 - see LICENSE file.
 
-   Copyright 2014 go-bintray contributors
+   Copyright 2014 go-httputils contributors
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
