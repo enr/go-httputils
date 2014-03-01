@@ -1,6 +1,8 @@
 Go httputils
 ============
 
+[![Build Status](https://travis-ci.org/enr/go-httputils.png?branch=master)](https://travis-ci.org/enr/go-httputils)
+
 Go library to easily download files via HTTP.
 
 Import:
