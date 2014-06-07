@@ -40,6 +40,12 @@ Download preserving destination file if it exists; copy `localFilePath` in `back
     }
 ```
 
+Test if it is a valid URL:
+
+```Go
+    isValidUrl := httputils.IsValidUrl(maybeUrl)
+```
+
 
 License
 -------

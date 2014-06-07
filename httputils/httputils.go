@@ -16,10 +16,7 @@ func IsValidUrl(arg string) bool {
 	if strings.TrimSpace(arg) == "" {
 		return false
 	}
-	//fmt.Printf("ARG %s\n", arg)
 	u, err := url.Parse(arg)
-	//fmt.Printf("U %v\n", u)
-	//fmt.Printf("ERR %v\n", err)
 	if err != nil {
 		return false
 	}
@@ -93,7 +90,7 @@ func download(src, destination string) error {
 
 func buildDestinationPath(destination, source string) string {
 	dst := strings.TrimSpace(destination)
-	if dst == "" || files.IsDir(destination) {
+	if dst == "" || files.IsDir(dst) {
 		return path.Join(dst, filepath.Base(source))
 	}
 	return dst
