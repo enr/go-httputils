@@ -2,6 +2,7 @@ Go httputils
 ============
 
 [![Build Status](https://travis-ci.org/enr/go-httputils.png?branch=master)](https://travis-ci.org/enr/go-httputils)
+[![Build status](https://ci.appveyor.com/api/projects/status/moywc16vawynrvsx?svg=true)](https://ci.appveyor.com/project/enr/go-httputils)
 
 Go library to easily download files via HTTP.
 
